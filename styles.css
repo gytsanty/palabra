@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(black, #3ddf2c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 500px;
+    background-color: hsl(198, 62%, 78%);
+    border: 7px solid hsl(273, 98%, 47%);
+    color: #000;
+    padding: 7px;
+}
+
+h2 {
+    border-bottom: 1px solid hwb(197 26% 15%);
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#palabra {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.letra {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #de2b67;
+    text-align: center;
+    margin: 4px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.pintar {
+    background-color: hsl(186, 98%, 38%);
+    ;
+}
+
+.pintarError {
+    background-color: red;
+}
+
+h3 {
+    margin: 4px 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+h3 span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color: #afca45;
+    border: 2px solid #bf02a9;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: hsl(259, 98%, 38%);
+}
